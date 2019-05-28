@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<ruleset name="Custom">
+   <!-- Enable colors in report -->
+   <arg name="colors"/>
+
+   <!-- Add source codes in the report -->
+   <arg value="s"/>
+
+   <!-- Load WordPressVIPMinimum Coding standards -->
+   <rule ref="WordPressVIPMinimum">
+       <include-pattern>include/</include-pattern>
+   </rule>
+   <rule ref="WordPressVIPMinimum.Functions.RestrictedFunctions">
+       <exclude name="WordPressVIPMinimum.Functions.RestrictedFunctions.wp_is_mobile_wp_is_mobile"/>
+       <exclude name="WordPressVIPMinimum.Functions.RestrictedFunctions.term_exists_term_exists"/>
+   </rule>
+</ruleset>
