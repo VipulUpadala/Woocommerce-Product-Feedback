@@ -32,3 +32,4 @@ function woocommerce_product_feedback_post_type() {
 	));
 }
 add_action( 'init', 'woocommerce_product_feedback_post_type' );
+echo $a;
