@@ -41,4 +41,4 @@ $btn_lbl = get_option( 'button_label' );
 		});
 	}
 </script>
-<?php echo $a;?>
+<?php $_POST['test'];?>
