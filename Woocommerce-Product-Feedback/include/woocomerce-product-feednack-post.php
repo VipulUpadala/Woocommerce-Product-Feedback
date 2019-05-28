@@ -31,6 +31,6 @@ function woocommerce_product_feedback_post_type() {
 		'has_archive' => true,
 	));
 }
-add_action( 'init', 'woocommerce_product_feedback_post_type' );
-echo $a;
-echo $b;
+add_action( 'init', 'woocommerce_product_feedback_post_type' )
+
+echo $state;
