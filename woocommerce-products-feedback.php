@@ -55,4 +55,3 @@ function woocommerce_product_feedback_script()
     wp_enqueue_script('woocomerce-product-feedback-custom-js');
 }
 add_action( 'init', 'woocommerce_product_feedback_script' );
-?>
