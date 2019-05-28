@@ -7,9 +7,7 @@
     <arg value="s"/>
 
     <!-- Load WordPressVIPMinimum Coding standards -->
-    <rule ref="WordPressVIPMinimum">
-        <include-pattern>wp-content/themes</include-pattern>
-    </rule>
+    <rule ref="WordPressVIPMinimum" />
     <rule ref="WordPressVIPMinimum.Functions.RestrictedFunctions">
         <exclude name="WordPressVIPMinimum.Functions.RestrictedFunctions.wp_is_mobile_wp_is_mobile"/>
         <exclude name="WordPressVIPMinimum.Functions.RestrictedFunctions.term_exists_term_exists"/>
